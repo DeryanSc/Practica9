@@ -1,0 +1,97 @@
+.wrapper{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+
+#head{
+    background-color: red;
+    height: 100px;
+    
+}
+
+#top{
+    background-color: gold;
+    height: 500px;
+    width: 250px;
+    float: left;
+    position: relative;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+#bottom{
+    background-color: mediumvioletred;
+    height: 500px;
+    width: 250px;
+    float: left;
+    position: relative;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#right{
+    background-color: rgb(27, 27, 235);
+    height: 500px;
+    width: 250px;
+    float: left;
+    position: relative;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#izquierda{
+    background-color: mediumseagreen;
+    height: 500px;
+    width: 250px;
+    float: left;
+    position: relative;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#cuadro3{
+    background-color: royalblue;
+    height: 300px;
+    width: 500px;
+    float: left;
+}
+
+#cuadro4{
+    background-color: slategrey;
+    height: 300px;
+    width: 500px;
+    float: left;
+}
+
+#fooder{
+    background-color: red;
+    height: 50px;
+}
+
+.clearfix::after{     
+    content: "";     
+    clear: both;     
+    display: table; 
+}
+
+.top1{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.bottom2{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.right{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.izquierda4{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
